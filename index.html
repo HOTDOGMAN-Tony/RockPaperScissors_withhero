@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <HTML>
+        <head>
+            <script src="rock-paper-scissors-withhero.js"></script>
+            <link rel="stylesheet" href="rock-paper-scissors-withhero.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&display=swap" rel="stylesheet">
+        <body>
+            <p class="title">Rock Paper Scissors with hero</p>
+            
+            <p class="score"></p>
+            <button class="reset" onclick="reset(); score_show()">Reset Score</button>
+            <div class="button">
+                
+                <div class="rock_">
+                    <button class="rock" onclick="result_f(); check_rock(); score_show();"><img src="Rock.png" class="Pic_setting"></button>
+                    <p class="rock_car">Rock Car</p>
+                </div>
+
+                <div>
+                   <button class="paper"><img src="Paper.png" class="Pic_setting" onclick="check_paper(); result_f();score_show()"></button>
+                   <p class="Paper_man">Paper man</p>
+                </div> 
+
+                <div>
+                   <button class="scissors"><img src="/Scissors.png" onclick="result_f(); check_scissors();score_show()" class="Pic_setting"></button>
+                   <p class="Mr">Mr Scissors</p>
+                </div>
+
+
+            
+        </body>
+    </HTML>
