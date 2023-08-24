@@ -6,4 +6,4 @@ There is three hero call: Rock, Paper man and Mr Scissors. What you are flightin
 
 Click on the pic to play.
 
-V.1
+V0.2
